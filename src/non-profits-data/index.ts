@@ -1191,5 +1191,323 @@ const nonProfits: readonly NonProfit[] = [
     ],
   },
 ];
-
+{
+  npCode:'StrongerTogether',
+    name: 'Association STRONGER TOGETHER Skopje',
+    email:'kontakt@zp.mk',
+    country: 'North Macedonia',
+    website: 'https://zp.mk/',
+    logo: 'https://mzd.mk/wp-content/uploads/2021/08/zaedno-posilni-logo-1536x1536.png',
+    foundedYear: '2009',
+    description: 
+  'Stronger Together is an organization that provides support to people living with HIV in North Macedonia and strives to improve the quality of their lives.',
+    isVerified: true,
+    verifications: [
+  {
+    date: new Date('2024-12-09'),
+    verifier: '@MajaGT',
+  },
+],
+    paymentMehtods: [
+    {
+      type: 'donation-link',
+      paymentID: 'https://zp.mk/doniraj/',
+    },
+    {
+     type: 'chimoney',
+      paymentID: {
+        test:'',
+        production: 'uniqueChimoneyID', //if present
+      },
+      donationHandler: 'chimoneyDonation',
+    },
+    ],
+    {
+  npCode:'LEGIS',
+    name: 'Legis',
+    email:'info@legis.mk',
+    country: 'North Macedonia',
+    website: 'https://legis.mk/',
+    logo: 'https://legis.mk/wp-content/uploads/2022/01/Logo-1-1024x2381-1.png',
+    foundedYear: '2009',
+    description: 
+      'LEGIS is a humanitarian Non-Profit Civil Society Organization that provides necessary humanitarian aid and assistance to refugees, asylum seekers, IDPs, irregular and detained migrants and people in need.',
+    isVerified: true,
+    verifications: [
+  {
+    date: new Date('2024-12-09'),
+    verifier: '@MajaGT',
+  },
+],
+    paymentMehtods: [
+    {
+      type: 'donation-link',
+      paymentID: 'https://legis.mk/donate/',
+    },
+    {
+     type: 'chimoney',
+      paymentID: {
+        test:'',
+        production: 'uniqueChimoneyID', //if present
+      },
+      donationHandler: 'chimoneyDonation',
+    },
+    ],
+    {
+  npCode:'UNICEFNORTHMACEDONIA',
+    name: 'UNICEF-North Macedonia',
+    email:'skopje@unicef.org',
+    country: 'North Macedonia',
+    website: 'https://www.unicef.org/northmacedonia/',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT-ZaUVDgWD62iLpaHXrqgmvb-u_5ANq8ZGA&s',
+    foundedYear: '1993',
+    description: 
+    'UNICEF North Macedonia strives to give every child a childhood, a future, and a fair chance.',
+    isVerified: true,
+    verifications: [
+  {
+    date: new Date('2024-12-09'),
+    verifier: '@MajaGT',
+  },
+],
+    paymentMehtods: [
+    {
+      type: 'donation-link',
+      paymentID: 'https://help.unicef.org/?_gl=1*1wvrye6*_ga*MTc3NjA2NzU2My4xNzMzNzg5Mjg3*_ga_ZEPV2PX419*MTczMzc4OTI4Ny4xLjEuMTczMzc4OTgxMy42MC4wLjA.*_ga_9ZKVYH4DTE*MTczMzc4OTI4Ny4xLjEuMTczMzc4OTgxNy4wLjAuMA..*_gcl_au*MTQ4NDg4NDUxLjE3MzM3ODkyODc.*_ga_P0DMSZ8KY6*MTczMzc4OTI4Ny4xLjEuMTczMzc4OTgxNy41Ni4wLjA.',
+    },
+    {
+     type: 'chimoney',
+      paymentID: {
+        test:'',
+        production: 'uniqueChimoneyID', //if present
+      },
+      donationHandler: 'chimoneyDonation',
+    },
+    ],
+     {
+    npCode: 'NADEZ',
+    name: 'Association Centre for Social Initiatives NADEZ',
+    email: 'admin@csinadez.mk',
+    country: 'North Macedonia',
+    website: 'https://csinadez.mk/',
+    logo: 'https://csinadez.mk/wp-content/themes/bridge/img/logo.png',
+    foundedYear: '1997',
+    description:
+      'C.S.I. Nadez is a civil society organization that strives to improve the quality of life and offer economic prosperity to marginalized communities in North Macedonia.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'https://csinadez.mk/donate/',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  },
+  {
+    npCode: 'HFH',
+    name: 'Habitat for Humanity Macedonia',
+    email: 'info@habitat.org.mk',
+    country: 'North Macedonia',
+    website: 'http://habitat.org.mk/',
+    logo: 'http://habitat.org.mk/images/banners/HFH-Logo-wide[300x50].jpg',
+    foundedYear: '2005',
+    description:
+      'Habitat Macedonia is a social enterprise of an NGO and two LLCs affiliated with the global non-for-profit poverty housing network Habitat for Humanity and dedicated to providing simple, decent and affordable housing solutions for those living in poverty.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'http://habitat.org.mk/eng/donate.html',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  },
+    {
+    npCode: 'NSRR',
+    name: 'National Council for Gender Equality Macedonia',
+    email: 'info@nsrr.org.mk',
+    country: 'North Macedonia',
+    website: ' https://nsrr.org.mk/',
+    logo: 'https://ovp.gov.mk/wp-content/uploads/2020/11/1918997_183782884649_430987_n-300x180.jpg',
+    foundedYear: '1994',
+    description:
+      'National Council for Gender Equality is a national, multi-ethnic, multi-generational, creative, future-oriented network committed to achieving gender equality, development, protection of women's/human rights and peace.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'https://nsrr.org.mk/donations/',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  },
+      {
+    npCode: 'LinkAcrossMacedonia',
+    name: 'LinkAcross Macedonia',
+    email: 'macedonia@linkacross.org',
+    country: 'North Macedonia',
+    website: 'https://www.linkacross.org/',
+    logo: 'https://amcham.mk/wp-content/uploads/2022/07/amcham-member-link-across.png',
+    foundedYear: '2009',
+    description:
+      'LinkAcross is a non-governmental organization working for economic, healthcare, and community development in the Balkans, by linking local and global partners.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'https://www.linkacross.org/donate',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  },
+      {
+    npCode: 'OAA',
+    name: 'Ohrid Astronomy Association',
+    email: 'earth@ohridastronomy.com',
+    country: 'North Macedonia',
+    website: 'https://ohridastronomy.com/',
+    logo: 'https://ohridastronomy.com/wp-content/uploads/2019/10/ohrid-astronomy-logo-1-7.png',
+    foundedYear: '2004',
+    description:
+      'Ohrid Astronomy Association is an organization that aspires to promote astronomy and astrophotography among local youth and the natural beauty of the city of Ohrid itself and its surroundings.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'https://ohridastronomy.com/%d0%b4%d0%be%d0%bd%d0%b8%d1%80%d0%b0%d1%98-%d0%b8%d0%bb%d0%b8-%d0%bf%d0%be%d0%bc%d0%be%d0%b3%d0%bd%d0%b8/',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  },
+      {
+    npCode: 'FirstChildrensEmbassy',
+    name: 'First Children's Embassy in the World - Megjashi',
+    email: 'info@childrensembassy.org.mk',
+    country: 'North Macedonia',
+    website: 'www.childrensembassy.org.mk',
+    logo: 'http://www.childrensembassy.org.mk/images/logo.png?v001',
+    foundedYear: '1992',
+    description:
+      'FCEWM is a world association of citizens and represents an international non­partisan, nongovernmental and non­profit humanitarian association for the care of children and children’s rights.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'http://www.childrensembassy.org.mk/donacija.nspx',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  }, 
+     {
+    npCode: 'OpenGate',
+    name: 'Open Gate - Macedonia',
+    email: 'lastrada@lastrada.org.mk',
+    country: 'North Macedonia',
+    website: 'https://lastrada.org.mk/?lang=en',
+    logo: 'https://ngobase.org/images/ngo_logos/MK/Open-Gate---Macedonia-ngo-charity.png',
+    foundedYear: '2000',
+    description:
+      'The main goal of Open Gate is to invest all their effort and capacity in creating a society freed from inequality, poverty, prejudice and discrimination, violence and trafficking in humans, and to build a place where people’s rights are widely respected and all citizens are given equal opportunities for socio-economic independence.',
+    isVerified: true,
+    verifications: [
+      {
+        date: new Date('2024-12-09'),
+        verifier: '@MajaGT',
+      },
+    ],
+    paymentMethods: [
+      {
+        type: 'donation-link',
+        paymentID: 'https://lastrada.org.mk/donate/?lang=en',
+      },
+      {
+        type: 'chimoney',
+        paymentID: {
+          test: '',
+          production: '', //if present
+        },
+        donationHandler: 'chimoneyDonation',
+      },
+    ],
+  },
+]; 
+    
 export default nonProfits;
